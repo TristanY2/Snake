@@ -4,6 +4,7 @@ first project built to explore game loop logic and DOM manipulation.
 
 Code snippet (movement logic)
 
+```Javascript
 //Moving the snake manipulating the array
 function moverSerpiente() {
 	let newHead = {
@@ -14,3 +15,4 @@ function moverSerpiente() {
 	snake.unshift(newHead); // Add new head at the begin of the array
 	snake.pop(); // Delete last part to maintain array lenght
 }
+```
